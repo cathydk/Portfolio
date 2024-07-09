@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace, Helvetica, sans-serif;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  li a:active {
+    background-color: black;
+    color: white;
+  }
+
+  .heading {
+    text-align: center;
+  }
+
+  .intro {
+    text-align: center;
+  }
+
+  .me {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    float: right;
+  }
+
+  img {
+    float: left;
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+  }
+
+  .languages {
+    display: flex;
+  }
+
+  .systems {
+    display: flex;
+  }
+
+  .tools {
+    display: flex;
+  }
+
+  .software {
+    display: flex;
+  }
+
+  #contact {
+    text-align: center;
+  }
+
+  .connect {
+    text-align: center;
+  }
+
+  .contact_icons {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  .contact_icon {
+    padding: 10px;
+    text-align: center;
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 50px;
+    height: 50px;
+    padding-left: 120px;
+}
+
+.p {
+  width: 160px;
+  height: 100px;
+}
